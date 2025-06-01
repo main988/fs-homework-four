@@ -53,6 +53,10 @@ body {
   width: 1440;
   height: 600;
   top: 72px;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url("/images/backgrnd-im-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .main-button {
@@ -338,4 +342,88 @@ a {
 .foot-logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.icon {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.icon-social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  background-color: #4D5AE5;
+  color: #f4f4fd;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s;
+  transform: translateY(-3px);
+}
+
+.soc-text-foot {
+  display: flex;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -115px;
+  margin-right: 100px;
+}
+
+.icon-soc-from-foot {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.fotoor-social {
+  width: 30px;
+  height: 30px;
+  transform: translate(-4%);
+}
+
+.images-card {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.images-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.overlay-text {
+  position: absolute;
+  background-color: #4D5AE5;
+  color: #F4F4FD;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.image-card:hover .overlay-text {
+  opacity: 1;
 }
