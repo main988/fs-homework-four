@@ -318,10 +318,10 @@ p {
   height: 40px;
 }
 
-.link-insta {
+.link-socialy {
   width: 100%;
   height: 100%;
-  background-color: var(#4d5ae5);
+  background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -329,68 +329,11 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-insta:hover {
+.link-socialy:hover {
   background-color: #404bbf;
 }
 
-.link-insta:focus {
-  background-color: #404bbf;
-}
-
-.link-twitt {
-  width: 100%;
-  height: 100%;
-  background-color: var(#4d5ae5);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.link-twitt:hover {
-  background-color: #404bbf;
-}
-
-.link-twitt:focus {
-  background-color: #404bbf;
-}
-
-.link-face {
-  width: 100%;
-  height: 100%;
-  background-color: var(#4d5ae5);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.link-face:hover {
-  background-color: #404bbf;
-}
-
-.link-face:focus {
-  background-color: #404bbf;
-}
-
-.link-linked {
-  width: 100%;
-  height: 100%;
-  background-color: var(#4d5ae5);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.link-linked:hover {
-  background-color: #404bbf;
-}
-
-.link-linked:focus {
+.link-socialy:focus {
   background-color: #404bbf;
 }
 
@@ -547,7 +490,7 @@ a {
 .text-alt {
   position: absolute;
   background-color: #4D5AE5;
-  color: var(#f4f4fd);
+  color:#f4f4fd;
   top: 0;
   font-weight: 400;
   font-size: 16px;
@@ -556,7 +499,7 @@ a {
   padding: 40px 32px;
   height: 100%;
   width: 100%;
-  transform: translateY(100%);
+  transform: translateY(0%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
